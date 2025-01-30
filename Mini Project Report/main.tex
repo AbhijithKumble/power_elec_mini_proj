@@ -1,0 +1,50 @@
+\documentclass[a4paper, 12pt]{report} % Use A4 paper and 12pt font size
+\usepackage{titlepic}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{authblk}
+\usepackage{setspace} % For line spacing
+\usepackage{amsmath, amssymb, amsthm}
+\graphicspath{{./images/}}
+
+% Title section
+\title{
+    \vspace{-3cm} % Adjust vertical spacing above the title
+    \textbf{Mini Project Report On} \\
+    \vspace{0.5cm}
+    \textbf{Rectifiers} \\
+    \vspace{1cm}
+    \includegraphics[scale=0.5]{NITK_Emblem.png} \\
+    \vspace{1cm}
+    \textbf{Electrical and Electronics \\ Engineering}
+    \vspace{-1cm} % Adjust spacing below the title
+}
+
+% Author section
+\author{
+    \vspace{1cm} % Adjust vertical spacing above the author names
+    \textbf{Submitted by: \\}
+    Abhijith Kumble (221EE202)\\ 
+    Chaman Changappa H A (221EE202)\\ 
+    Prashanth (221EE202)\\ 
+    Sachin Belle (221EE202)
+}
+
+\date{\vspace{0.5cm}January 2025} % Add spacing above the date
+\affil{
+    \vspace{1cm} % Adjust vertical spacing above the department
+    \textbf{Under the guidance of} \\ 
+    Dr. Ravi Raushan \\
+    \vspace{0.5cm} % Space before the department name
+    \textbf{Department of Electrical and Electronics Engineering} \\
+    National Institute of Technology, Surathkal
+}
+
+\begin{document}
+% Single-space the title
+\singlespacing
+\maketitle
+% Restore normal spacing for the body
+\onehalfspacing
+\section{Introduction}
+\include{single_phase_rectifier}
+\end{document}
